@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: rgba(0,0,0,0.7) url('investment_background.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.container
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.log_in
+{
+    border: 2px solid white;
+    border-radius: 19px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    font-size: x-large;
+    width: 30%;
+    margin: 200px;
+    padding: 27px;
+}
+
+.details
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details input{
+    width: 50%;
+    border-radius: 12px;
+    padding: 6px;
+    margin: 6px;
+}
+.btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
